@@ -128,7 +128,7 @@
 
 Acima você tem um quadro interativo mostrando mês × consumo × custos × economia.
 Os valores foram calculados usando **o critério “tarifa em cascata” da Resolução ARES-PCJ n.º 600/2024** — ou seja, cada faixa de 10 m³ (ou 50 m³) é tarifada com o preço específico e depois somada, exatamente como a SAEC faz hoje. ([saec.sp.gov.br][1])
-
+## Cenário 1
 | Estratégia simulada                                                           | Hipóteses usadas                                |
 | ----------------------------------------------------------------------------- | ----------------------------------------------- |
 | **Hidrômetro 1 (Agrofloresta)** – 99 m³/mês, paga só água (sem esgoto).       | Jardim/agrofloresta não lança efluente na rede. |
@@ -181,3 +181,24 @@ Os valores foram calculados usando **o critério “tarifa em cascata” da Reso
 Com esses três hidrômetros e ações complementares, o campus pode poupar **mais de R$ 50 mil por ano**, liberando recursos para projetos de pesquisa e extensão.
 
 [1]: https://saec.sp.gov.br/wp-content/uploads/2024/12/Resolucao-no-600_2024-Reajuste-Tarifario-SAEC-Catanduva.pdf "Microsoft Word - Resoluc'ao nº 600_2024 - Reajuste Tarifario - SAEC Catanduva.docx"
+
+
+## Cenário 2
+**Estratégia considerada**
+
+* **Hidrômetro 1 – Agrofloresta:** 30 m³/mês, paga só água (sem esgoto).
+* **Hidrômetro 2 – Restaurante:** 88 m³/mês, paga água + esgoto.
+* **Hidrômetro 3 – Demais setores:** recebe o volume restante, paga água + esgoto.
+
+> Cálculo feito com a tarifa progressiva da Resolução ARES-PCJ n.º 600/2024 (faixas 0-10, 11-20, 21-30, 31-40 m³ etc.).
+
+### Quadro de economia (abril-junho / 2025)
+
+| Mês   | Consumo total (m³) | Conta atual (água + esgoto) | Conta c/ 3 hidrômetros | Economia (R$)   | Economia (%) |
+| ----- | ------------------ | --------------------------- | ---------------------- | --------------- | ------------ |
+| Abril | 345                | **R$ 13 013,30**            | **R$ 10 465,26**       | **R$ 2 548,04** | 19,6 %       |
+| Maio  | 286                | **R$ 10 527,04**            | **R$ 7 979,00**        | **R$ 2 548,04** | 24,2 %       |
+| Junho | 305                | **R$ 11 327,70**            | **R$ 8 779,66**        | **R$ 2 548,04** | 22,5 %       |
+
+**Resultado:** poupança média ≈ **R$ 2,55 mil/mês** (≈ 22 %). Mantida esta configuração, a economia anual estimada ultrapassa **R$ 30 mil**.
+
